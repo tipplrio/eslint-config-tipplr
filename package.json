@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tipplr",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Tipplr's ESLint config, following our styleguide",
   "author": "James G. Kim <jgkim@jayg.org> (http://jayg.org/)",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "test": "babel-tape-runner ./tests/*.test.js | faucet",
     "lint": "eslint ."
   },
-  "dependencies": {
+  "peerDependencies": {
     "eslint": ">=1.9.0",
     "eslint-plugin-react": "^3.10.0"
   },
