@@ -1,42 +1,39 @@
-# eslint-config-airbnb
+# eslint-config-tipplr
 
-This package provides Airbnb's .eslintrc as an extensible shared config.
+This package provides Tipplr's .eslintrc as an extensible [shared config](http://eslint.org/docs/developer-guide/shareable-configs).
 
 ## Usage
 
-We export three ESLint configurations for your usage.
+We now export three ESLint configurations for your usage.
 
-### eslint-config-airbnb
+### eslint-config-tipplr
 
-Our default export contains all of our ESLint rules, including EcmaScript 6+
-and React. It requires `eslint` and `eslint-plugin-react`.
+Our default export contains the base of our ESLint rules, including ECMAScript 6+. It currently requires only `eslint`.
 
-1. `npm install --save-dev eslint-config-airbnb eslint-plugin-react eslint`
-2. add `"extends": "airbnb"` to your .eslintrc
+1. `npm install eslint eslint-config-tipplr --save-dev`
+2. add `"extends": "tipplr"` to your .eslintrc
 
-### eslint-config-airbnb/base
+### eslint-config-tipplr/legacy
 
-Lints ES6+ but does not lint React. Requires `eslint`.
+Lints ECMAScript 5 and below. This also only requires `eslint`.
 
-1. `npm install --save-dev eslint-config-airbnb eslint`
-2. add `"extends": "airbnb/base"` to your .eslintrc
+1. `npm install eslint eslint-config-tipplr --save-dev`
+2. add `"extends": "tipplr/legacy"` to your `.eslintrc`
 
-### eslint-config-airbnb/legacy
+### eslint-config-tipplr/react
 
-Lints ES5 and below. Only requires `eslint`.
+This contains all of our ESLint rules, including ECMAScript 6+ and React. It requires `eslint` and `eslint-plugin-react`.
 
-1. `npm install --save-dev eslint-config-airbnb eslint`
-2. add `"extends": "airbnb/legacy"` to your .eslintrc
+1. `npm install eslint eslint-plugin-react eslint-config-tipplr --save-dev`
+2. add `"extends": "tipplr/react"` to your .eslintrc
 
-See [Airbnb's Javascript styleguide](https://github.com/airbnb/javascript) and
-the [ESlint config docs](http://eslint.org/docs/user-guide/configuring#extending-configuration-files)
+See also [Tipplr's Javascript Style Guide](https://github.com/jgkim/styleguides) and
+the [ESlint config documentation](http://eslint.org/docs/user-guide/configuring)
 for more information.
 
 ## Improving this config
 
-Consider adding test cases if you're making complicated rules changes, like
-anything involving regexes. Perhaps in a distant future, we could use literate
-programming to structure our README as test cases for our .eslintrc?
+Consider adding test cases if you're making complicated rules changes, like anything involving regexes.
 
 You can run tests with `npm test`.
 
@@ -44,34 +41,5 @@ You can make sure this module lints with itself using `npm run lint`.
 
 ## Changelog
 
-### 1.0.0
-- require `eslint` `v1.0.0` or higher
-- removes `babel-eslint` dependency
-
-### 0.1.1
-- remove id-length rule (#569)
-- enable `no-mixed-spaces-and-tabs` (#539)
-- enable `no-const-assign` (#560)
-- enable `space-before-keywords` (#554)
-
-### 0.1.0
-
-- switch to modular rules files courtesy the [eslint-config-default][ecd]
-  project and [@taion][taion]. [PR][pr-modular]
-- export `eslint-config-airbnb/legacy` for ES5-only users.
-  `eslint-config-airbnb/legacy` does not require the `babel-eslint` parser.
-  [PR][pr-legacy]
-
-[ecd]: https://github.com/walmartlabs/eslint-config-defaults
-[taion]: https://github.com/taion
-[pr-modular]: https://github.com/airbnb/javascript/pull/526
-[pr-legacy]: https://github.com/airbnb/javascript/pull/527
-
-### 0.0.9
-
-- add rule no-undef
-- add rule id-length
-
-### 0.0.8
- - now has a changelog
- - now is modular (see instructions above for with react and without react versions)
+### 0.0.1
+* forked from Airbnb's [.eslintrc](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)

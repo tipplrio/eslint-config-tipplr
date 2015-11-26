@@ -1,9 +1,9 @@
 module.exports = {
   'plugins': [
-    'react'
+    'react',
   ],
   'ecmaFeatures': {
-    'jsx': true
+    'jsx': true,
   },
   'rules': {
     // Prevent missing displayName in a React component definition
@@ -52,10 +52,10 @@ module.exports = {
         '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
         'everything-else',
         '/^render.+$/',
-        'render'
-      ]
+        'render',
+      ],
     }],
     // Prevent missing parentheses around multilines JSX
-    'react/wrap-multilines': 2
-  }
+    'react/wrap-multilines': 2,
+  },
 };

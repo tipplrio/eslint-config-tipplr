@@ -1,7 +1,6 @@
 import test from 'tape';
 import { CLIEngine } from 'eslint';
-import eslintrc from '../';
-import baseConfig from '../base';
+import eslintrc from '../react';
 import reactRules from '../rules/react';
 
 const cli = new CLIEngine({

@@ -1,6 +1,6 @@
 module.exports = {
   'env': {
-    'es6': false
+    'es6': false,
   },
   'ecmaFeatures': {
     'arrowFunctions': true,
@@ -18,7 +18,7 @@ module.exports = {
     'spread': true,
     'superInFunctions': true,
     'templateStrings': true,
-    'jsx': true
+    'jsx': true,
   },
   'rules': {
     // require parens in arrow function arguments
@@ -46,6 +46,6 @@ module.exports = {
     // suggest using Reflect methods where applicable
     'prefer-reflect': 0,
     // disallow generator functions that do not have yield
-    'require-yield': 0
-  }
+    'require-yield': 0,
+  },
 };
