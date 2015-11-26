@@ -12,10 +12,10 @@ module.exports = {
     'curly': [2, 'multi-line'],
     // require default case in switch statements
     'default-case': 2,
-    // encourages use of dot notation whenever possible
-    'dot-notation': [2, { 'allowKeywords': true}],
     // enforces consistent newlines before or after dots
     'dot-location': 0,
+    // encourages use of dot notation whenever possible
+    'dot-notation': 2,
     // require the use of === and !==
     'eqeqeq': 2,
     // make sure for-in loops have an if statement
@@ -24,12 +24,16 @@ module.exports = {
     'no-alert': 1,
     // disallow use of arguments.caller or arguments.callee
     'no-caller': 2,
+    // disallow lexical declarations in case clauses
+    'no-case-declarations': 0,
     // disallow division operators explicitly at beginning of regular expression
     'no-div-regex': 0,
     // disallow else after a return in an if
     'no-else-return': 2,
     // disallow use of labels for anything other then loops and switches
     'no-empty-label': 2,
+    // disallow use of empty destructuring patterns
+    'no-empty-pattern': 2,
     // disallow comparisons to null without a type-checking operator
     'no-eq-null': 0,
     // disallow use of eval()
@@ -56,23 +60,25 @@ module.exports = {
     'no-lone-blocks': 2,
     // disallow creation of functions within loops
     'no-loop-func': 2,
+    // disallow the use of magic numbers
+    'no-magic-numbers': 0,
     // disallow use of multiple spaces
     'no-multi-spaces': 2,
     // disallow use of multiline strings
     'no-multi-str': 2,
     // disallow reassignments of native objects
     'no-native-reassign': 2,
-    // disallow use of new operator when not part of the assignment or comparison
-    'no-new': 2,
     // disallow use of new operator for Function object
     'no-new-func': 2,
     // disallows creating new instances of String,Number, and Boolean
     'no-new-wrappers': 2,
-    // disallow use of (old style) octal literals
-    'no-octal': 2,
+    // disallow use of new operator when not part of the assignment or comparison
+    'no-new': 2,
     // disallow use of octal escape sequences in string literals, such as
     // var foo = 'Copyright \251';
     'no-octal-escape': 2,
+    // disallow use of (old style) octal literals
+    'no-octal': 2,
     // disallow reassignment of function parameters
     'no-param-reassign': 2,
     // disallow use of process.env
@@ -95,6 +101,8 @@ module.exports = {
     'no-unused-expressions': 2,
     // disallow unnecessary .call() and .apply()
     'no-useless-call': 0,
+    // disallow unnecessary concatenation of literals or template literals
+    'no-useless-concat': 0,
     // disallow use of void operator
     'no-void': 0,
     // disallow usage of configurable warning terms in comments: e.g. todo

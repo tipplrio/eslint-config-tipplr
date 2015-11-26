@@ -43,5 +43,8 @@ You can make sure this module lints with itself using `npm run lint`.
 
 ## Changelog
 
+### 0.1.0
+* require `eslint` `v1.9.0` or higher
+
 ### 0.0.1
 * forked from Airbnb's [.eslintrc](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
