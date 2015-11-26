@@ -8,7 +8,7 @@
     "test": "babel-tape-runner ./tests/*.test.js",
     "lint": "eslint ."
   },
-  "peerDependencies": {
+  "dependencies": {
     "eslint": ">=1.0.0",
     "eslint-plugin-react": "^3.10.0"
   },
