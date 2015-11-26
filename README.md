@@ -1,5 +1,7 @@
 # eslint-config-tipplr
 
+[![Build Status](https://travis-ci.org/tipplrio/eslint-config-tipplr.svg?branch=master)](https://travis-ci.org/tipplrio/eslint-config-tipplr)
+
 This package provides Tipplr's .eslintrc as an extensible [shared config](http://eslint.org/docs/developer-guide/shareable-configs).
 
 ## Usage
