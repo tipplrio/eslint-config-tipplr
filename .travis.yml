@@ -6,4 +6,5 @@ install:
   - npm install eslint eslint-plugin-react
   - npm install
 notifications:
-  slack: $SLACK_TOKEN
+  slack:
+    secure: fuGhTtCxiH4ArKYYLIcKV50HvX4v0pVGok7TiygInR5CRYg8OQ/sadiv7e88M2ZlMptFGSwYyCTJYODjtIG7AOOxkJDu+LvV/fxhZH1Ml1TE0z8el0FA4cdQdOyHMstWxhjSrYdkFBY4sBIhkDaaHToTtzKrjDH9XR+p++FvdA3OtvMINR30hBFBf5688I3uDy/hIMSx5U/Yk2/wxn+zXnwf3aCgzaNtYb/Gnn/fHTkTbw3w+IRYMT4oVMnMKt/qZE6rkqG6iDUWWvK/kAShXaKiNn+ybJF/yljV3z9L5aDA/XgCePp/qX5jf0ly/LrHsI8lFFxQ4/R/MN7W7ePjZ1psP5DOsk7r9QSGtFpr3znd66L25zOhE/W/g4NIy2E39SQonnbk84MPl61qivLg8N/9yu//EssvW+UFb43V7StgzSaX5hjcDArNG10wgzWXTCb4V6GwxTR+zhzm1LLm+wJYPpUr+bTlQKVK2T/N7AhFY6yEKRx1OdPPcRU8nn83jr9KCgwt+26dla4DvsKfxAuapp0Nb3AyKEVEsEirSA8Q/nroVet9gojbVKW5rzNz5ctVIufAOavV+zR1rerY8CUUWXEoSt7UXFoZXu0MyF5NsbiubznsOJWr4cWlwo2kBsAh0KRVd5zTxA3M9Puygc6Ppwy9fENlF5htlI6TjJU=
