@@ -63,7 +63,13 @@ module.exports = {
     // disallow the use of magic numbers
     'no-magic-numbers': 0,
     // disallow use of multiple spaces
-    'no-multi-spaces': 2,
+    'no-multi-spaces': [2, {
+      'exceptions': {
+        'Property'          : true,
+        'VariableDeclarator': true,
+        'ImportDeclaration' : true,
+      },
+    }],
     // disallow use of multiline strings
     'no-multi-str': 2,
     // disallow reassignments of native objects
