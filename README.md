@@ -43,6 +43,9 @@ You can make sure this module lints with itself using `npm run lint`.
 
 ## Changelog
 
+### 0.1.5
+* disabled aligning of object literal properties
+
 ### 0.1.4
 * added exceptions for `no-multi-spaces`
 * enabled indentation for `SwitchCase`
