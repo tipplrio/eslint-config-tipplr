@@ -3,5 +3,5 @@ module.exports = {
     'eslint-config-tipplr/base',
     'eslint-config-tipplr/rules/react',
   ],
-  rules: {},
+  'rules': {},
 };

@@ -6,7 +6,7 @@ This package provides Tipplr's .eslintrc as an extensible [shared config](http:/
 
 ## Usage
 
-We now export three ESLint configurations for your usage.
+We now export four ESLint configurations for your usage.
 
 ### eslint-config-tipplr
 
@@ -14,6 +14,13 @@ Our default export contains the base of our ESLint rules, including ECMAScript 6
 
 1. `npm install eslint eslint-config-tipplr --save-dev`
 2. add `"extends": "tipplr"` to your .eslintrc
+
+### eslint-config-tipplr/test
+
+This contains the default configuration and some rules for writing tests using [`mocha-gherkin`](https://github.com/jgkim/mocha-gherkin).
+
+1. `npm install eslint eslint-config-tipplr --save-dev`
+2. add `"extends": "tipplr/test"` to your .eslintrc
 
 ### eslint-config-tipplr/legacy
 
@@ -42,6 +49,9 @@ You can run tests with `npm test`.
 You can make sure this module lints with itself using `npm run lint`.
 
 ## Changelog
+
+### 0.1.6
+* added a configuration `tipplr/test` closing #1
 
 ### 0.1.5
 * disabled aligning of object literal properties
