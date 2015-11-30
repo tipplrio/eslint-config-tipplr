@@ -27,6 +27,7 @@ test('validate a test using mocha-gherkin', t => {
         And('another condition');
         When('an action occurs');
         Then('an expected result happens');
+        it('should be OK.');
       });
     });
 `);

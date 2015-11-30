@@ -1,5 +1,19 @@
 module.exports = {
   'extends': 'eslint-config-tipplr/base',
+  'env': {
+    'browser': true,
+    'node': true,
+    'mocha': true,
+  },
+  'globals': {
+    'Feature': true,
+    'Scenario': true,
+    'Given': true,
+    'When': true,
+    'Then': true,
+    'And': true,
+    'But': true,
+  },
   'rules': {
     // require a capital letter for constructors
     'new-cap': [2, {
@@ -13,14 +27,5 @@ module.exports = {
         'But',
       ],
     }],
-  },
-  'globals': {
-    'Feature': true,
-    'Scenario': true,
-    'Given': true,
-    'When': true,
-    'Then': true,
-    'And': true,
-    'But': true,
   },
 };
