@@ -31,7 +31,7 @@ module.exports = {
       'SwitchCase': 1,
     }],
     // specify whether double or single quotes should be used in JSX attributes
-    'jsx-quotes': 2,
+    'jsx-quotes': [2, 'prefer-double'],
     // enforces spacing between keys and values in object literal properties
     'key-spacing': [2, {'beforeColon': false, 'afterColon': true, 'align': 'colon'}],
     // disallow mixed 'LF' and 'CRLF' as linebreaks
