@@ -1,7 +1,7 @@
 module.exports = {
   'rules': {
     // enforce spacing inside array brackets
-    'array-bracket-spacing': 0,
+    'array-bracket-spacing': [2, 'never'],
     // disallow or enforce spaces inside of single line blocks (fixable)
     'block-spacing': 2,
     // enforce one true brace style
@@ -13,7 +13,7 @@ module.exports = {
     // enforce one true comma style
     'comma-style': [2, 'last'],
     // require or disallow padding inside computed properties
-    'computed-property-spacing': 0,
+    'computed-property-spacing': [2, 'never'],
     // enforces consistent naming when capturing the current execution context
     'consistent-this': 0,
     // enforce newline at the end of file, with no multiple empty lines
