@@ -89,7 +89,7 @@ module.exports = {
     // disallow the use of Boolean literals in conditional expressions
     'no-unneeded-ternary': 0,
     // require or disallow padding inside curly braces
-    'object-curly-spacing': 0,
+    'object-curly-spacing': [2, 'always'],
     // allow just one var statement per function
     'one-var': [2, 'never'],
     // require assignment operator shorthand where possible or prohibit it entirely
