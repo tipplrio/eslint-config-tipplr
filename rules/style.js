@@ -33,7 +33,7 @@ module.exports = {
     // specify whether double or single quotes should be used in JSX attributes
     'jsx-quotes': 2,
     // enforces spacing between keys and values in object literal properties
-    'key-spacing': [2, {'beforeColon': false, 'afterColon': true}],
+    'key-spacing': [2, {'beforeColon': false, 'afterColon': true, 'align': 'colon'}],
     // disallow mixed 'LF' and 'CRLF' as linebreaks
     'linebreak-style': 2,
     // enforces empty lines around comments
