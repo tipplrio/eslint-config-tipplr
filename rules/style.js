@@ -119,7 +119,7 @@ module.exports = {
     // require a space before certain keywords
     'space-before-keywords': [2, 'always'],
     // require or disallow spaces inside parentheses
-    'space-in-parens': 0,
+    'space-in-parens': [2, 'never'],
     // require spaces around operators
     'space-infix-ops': 2,
     // require a space after return, throw, and case
