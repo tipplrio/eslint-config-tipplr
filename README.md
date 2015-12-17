@@ -47,22 +47,3 @@ Consider adding test cases if you're making complicated rules changes, like anyt
 You can run tests with `npm test`.
 
 You can make sure this module lints with itself using `npm run lint`.
-
-## Changelog
-
-### 0.1.6
-* added a configuration `tipplr/test` closing #1
-
-### 0.1.5
-* disabled aligning of object literal properties
-
-### 0.1.4
-* added exceptions for `no-multi-spaces`
-* enabled indentation for `SwitchCase`
-* enabled aligning of object literal properties based on colons
-
-### 0.1.0
-* required `eslint` `v1.9.0` or higher
-
-### 0.0.1
-* forked from Airbnb's [.eslintrc](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
