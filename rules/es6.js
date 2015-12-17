@@ -50,7 +50,7 @@ module.exports = {
     // require let or const instead of var
     'no-var': 2,
     // require method and property shorthand syntax for object literals
-    'object-shorthand': 0,
+    'object-shorthand': [2, 'always'],
     // suggest using arrow functions as callbacks
     'prefer-arrow-callback': 0,
     // suggest using of const declaration for variables that are never modified after declared
