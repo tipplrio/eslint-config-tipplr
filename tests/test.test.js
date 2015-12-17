@@ -7,7 +7,7 @@ const cli = new CLIEngine({
   baseConfig: eslintrc,
 
   // This rule fails when executing on text.
-  rules: {indent: 0},
+  rules: { indent: 0 },
 });
 
 function lint(text) {

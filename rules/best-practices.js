@@ -65,9 +65,9 @@ module.exports = {
     // disallow use of multiple spaces
     'no-multi-spaces': [2, {
       'exceptions': {
-        'Property'          : true,
+        'Property': true,
         'VariableDeclarator': true,
-        'ImportDeclaration' : true,
+        'ImportDeclaration': true,
       },
     }],
     // disallow use of multiline strings
