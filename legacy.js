@@ -7,7 +7,7 @@ module.exports = {
     'eslint-config-tipplr/rules/strict',
     'eslint-config-tipplr/rules/style',
     'eslint-config-tipplr/rules/variables',
-  ],
+  ].map(require.resolve),
   'env': {
     'browser': true,
     'node': true,
