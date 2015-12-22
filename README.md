@@ -36,7 +36,7 @@ This contains all of our ESLint rules, including ECMAScript 6+ and React. It req
 1. `npm install eslint eslint-plugin-react eslint-config-tipplr --save-dev`
 2. add `"extends": "tipplr/react"` to your .eslintrc
 
-See also [Tipplr's Javascript Style Guide](https://github.com/jgkim/styleguides) and
+See also [Tipplr's Javascript Style Guide](https://github.com/tipplrio/styleguides) and
 the [ESlint config documentation](http://eslint.org/docs/user-guide/configuring)
 for more information.
 
