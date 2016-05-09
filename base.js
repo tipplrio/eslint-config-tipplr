@@ -1,7 +1,14 @@
 module.exports = {
-  'extends': [
-    'eslint-config-tipplr/legacy',
-    'eslint-config-tipplr/rules/es6',
+  extends: [
+    './legacy',
+    'eslint-config-airbnb-base/rules/es6',
+    './rules/es6',
   ].map(require.resolve),
-  'rules': {},
+  parserOptions: {
+    ecmaVersion: 7,
+    sourceType: 'module',
+  },
+  rules: {
+    strict: 2,
+  },
 };

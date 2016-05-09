@@ -13,7 +13,8 @@ const cli = new CLIEngine({
 function lint(text) {
   // @see http://eslint.org/docs/developer-guide/nodejs-api.html#executeonfiles
   // @see http://eslint.org/docs/developer-guide/nodejs-api.html#executeontext
-  return cli.executeOnText(text).results[0];
+  const linter = cli.executeOnText(text);
+  return linter.results[0];
 }
 
 test('validate a test using mocha-gherkin', t => {

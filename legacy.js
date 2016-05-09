@@ -1,18 +1,21 @@
 module.exports = {
-  'extends': [
-    'eslint-config-tipplr/rules/best-practices',
-    'eslint-config-tipplr/rules/errors',
-    'eslint-config-tipplr/rules/legacy',
-    'eslint-config-tipplr/rules/node',
-    'eslint-config-tipplr/rules/strict',
-    'eslint-config-tipplr/rules/style',
-    'eslint-config-tipplr/rules/variables',
+  extends: [
+    'eslint-config-airbnb-base/legacy',
+    './rules/best-practices',
+    './rules/errors',
+    './rules/legacy',
+    './rules/node',
+    './rules/style',
+    './rules/variables',
   ].map(require.resolve),
-  'env': {
-    'browser': true,
-    'node': true,
+  env: {
+    browser: true,
+    node: true,
+    amd: false,
+    mocha: false,
+    jasmine: false,
   },
-  'ecmaFeatures': {},
-  'globals': {},
-  'rules': {},
+  ecmaFeatures: {},
+  globals: {},
+  rules: {},
 };

@@ -1,25 +1,25 @@
 module.exports = {
-  'extends': [
-    'eslint-config-tipplr/base',
+  extends: [
+    './base',
   ].map(require.resolve),
-  'env': {
-    'browser': true,
-    'node': true,
-    'mocha': true,
+  env: {
+    browser: true,
+    node: true,
+    mocha: true,
   },
-  'globals': {
-    'Feature': true,
-    'Scenario': true,
-    'Given': true,
-    'When': true,
-    'Then': true,
-    'And': true,
-    'But': true,
+  globals: {
+    Feature: true,
+    Scenario: true,
+    Given: true,
+    When: true,
+    Then: true,
+    And: true,
+    But: true,
   },
-  'rules': {
+  rules: {
     // require a capital letter for constructors
     'new-cap': [2, {
-      'capIsNewExceptions': [
+      capIsNewExceptions: [
         'Feature',
         'Scenario',
         'Given',

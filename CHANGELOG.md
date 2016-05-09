@@ -1,3 +1,7 @@
+0.3.1 / 2016-05-10
+==================
+  - rewrite extending the airbnb's configuration
+
 0.2.2 / 2015-12-22
 ==================
   - prevented parameter object manipulation

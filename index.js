@@ -1,6 +1,7 @@
 module.exports = {
-  'extends': [
-    'eslint-config-tipplr/base',
+  extends: [
+    './base',
   ].map(require.resolve),
-  'rules': {},
+  rules: {
+  },
 };
