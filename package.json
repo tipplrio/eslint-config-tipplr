@@ -1,8 +1,8 @@
 {
   "name": "eslint-config-tipplr",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Tipplr's ESLint config, following our styleguide",
-  "author": "James G. Kim <jgkim@jayg.org> (http://jayg.org/)",
+  "author": "James G. Kim <jgkim@tipplr.io> (http://jayg.org/)",
   "main": "index.js",
   "scripts": {
     "test": "babel-tape-runner ./tests/*.test.js | faucet",
@@ -10,7 +10,7 @@
   },
   "peerDependencies": {
     "eslint": "^1.10.3",
-    "eslint-plugin-react": "^3.11.3"
+    "eslint-plugin-react": "*"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.1.18",
