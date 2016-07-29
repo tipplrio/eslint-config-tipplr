@@ -3,10 +3,10 @@ module.exports = {
     'eslint-config-airbnb-base/legacy',
     './rules/best-practices',
     './rules/errors',
-    './rules/legacy',
     './rules/node',
     './rules/style',
     './rules/variables',
+    './rules/legacy',
   ].map(require.resolve),
   env: {
     browser: true,

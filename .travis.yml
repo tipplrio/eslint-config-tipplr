@@ -1,7 +1,7 @@
 language: node_js
 node_js:
+  - "6"
   - "5"
-  - "4"
 install:
   - npm install eslint eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y
   - npm install
