@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tipplr",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "Tipplr's ESLint config, following our styleguide",
   "author": "James G. Kim <jgkim@jayg.org> (http://jayg.org/)",
   "main": "index.js",

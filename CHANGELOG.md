@@ -1,4 +1,4 @@
-0.4.2 / 2016-07-31
+0.4.3 / 2016-07-31
 ==================
   - bumped the dependencies by temporarily adding the new base rules
   - added `react-native` rules
