@@ -1,3 +1,8 @@
+0.4.2 / 2016-07-31
+==================
+  - bumped the dependencies by temporarily adding the new base rules
+  - added `react-native` rules
+
 0.3.1 / 2016-05-10
 ==================
   - rewrite extending the airbnb's configuration

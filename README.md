@@ -12,8 +12,22 @@ We now export four ESLint configurations for your usage.
 
 Our default export contains the base of our ESLint rules, including ECMAScript 6+. It requires `eslint` and `eslint-plugin-import`.
 
-1. `PKG=eslint-config-tipplr npm info "$PKG" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG"` (which produces and runs a command like `npm install --save-dev eslint-config-tipplr eslint@^2.13.1 eslint-plugin-jsx-a11y@^1.5.5 eslint-plugin-ava@^2.5.0 eslint-plugin-import@^1.12.0 eslint-plugin-react@^5.2.2 eslint-plugin-react-native@^1.2.0` but with whatever the proper version numbers are)
-2. add `"extends": "tipplr"` to your .eslintrc
+1. Ensure packages are installed with correct version numbers by running:
+  ```sh
+  (
+    export PKG=eslint-config-tipplr;
+    npm info "$PKG" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG"
+  )
+  ```
+
+  Which produces and runs a command like:
+
+  ```sh
+  npm install --save-dev eslint-config-tipplr eslint@^2.13.1 eslint-plugin-jsx-a11y@^1.5.5 eslint-plugin-ava@^2.5.0 eslint-plugin-import@^1.12.0 eslint-plugin-react@^5.2.2 eslint-plugin-react-native@^1.2.0
+  ```
+
+2. Add `"extends": "tipplr"` to your .eslintrc
+
 
 ### eslint-config-tipplr/test
 
