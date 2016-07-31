@@ -1,7 +1,13 @@
 module.exports = {
+  plugins: [
+    'ava',
+  ],
   extends: [
-    './base',
-  ].map(require.resolve),
+    ...[
+      './base',
+    ].map(require.resolve),
+    'plugin:ava/recommended',
+  ],
   env: {
     browser: true,
     node: true,

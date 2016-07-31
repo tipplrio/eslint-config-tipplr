@@ -1,4 +1,4 @@
-import test from 'tape';
+import test from 'ava';
 import { CLIEngine } from 'eslint';
 import eslintrc from '../test';
 
@@ -17,7 +17,7 @@ function lint(text) {
   return linter.results[0];
 }
 
-test('validate a test using mocha-gherkin', t => {
+test('test: using mocha-gherkin', t => {
   t.plan(3);
   const result = lint(`
   Feature('Feature',
@@ -33,7 +33,7 @@ test('validate a test using mocha-gherkin', t => {
     });
 `);
 
-  t.notOk(result.warningCount, 'no warnings');
-  t.notOk(result.errorCount, 'no errors');
-  t.deepEquals(result.messages, [], 'no messages in results');
+  t.falsy(result.warningCount, 'no warnings');
+  t.falsy(result.errorCount, 'no errors');
+  t.deepEqual(result.messages, [], 'no messages in results');
 });
