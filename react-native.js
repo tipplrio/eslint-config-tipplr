@@ -1,5 +1,6 @@
 module.exports = {
   extends: [
-    './base',
+    './react',
+    './rules/react-native',
   ].map(require.resolve),
 };
