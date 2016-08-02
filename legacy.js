@@ -8,11 +8,6 @@ module.exports = {
     './rules/variables',
     './rules/legacy',
   ].map(require.resolve),
-  env: {
-    browser: true,
-    node: true,
-    amd: false,
-    mocha: false,
-    jasmine: false,
+  rules: {
   },
 };

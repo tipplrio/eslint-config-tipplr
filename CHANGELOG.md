@@ -1,3 +1,7 @@
+0.5.0 / 2016-08-02
+==================
+  - bumped the dependencies including updating `eslint` to v3
+
 0.4.3 / 2016-07-31
 ==================
   - bumped the dependencies by temporarily adding the new base rules

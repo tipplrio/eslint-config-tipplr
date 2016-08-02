@@ -3,4 +3,6 @@ module.exports = {
     './react',
     './rules/react-native',
   ].map(require.resolve),
+  rules: {
+  },
 };
