@@ -1,3 +1,7 @@
+0.5.2 / 2016-08-02
+==================
+  - set `react/jsx-filename-extension` in `react-native` to `.js` only
+
 0.5.1 / 2016-08-02
 ==================
   - `no-extraneous-dependencies`: set `devDependencies` to `true`
