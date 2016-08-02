@@ -1,3 +1,7 @@
+0.5.1 / 2016-08-02
+==================
+  - `no-extraneous-dependencies`: set `devDependencies` to `true`
+
 0.5.0 / 2016-08-02
 ==================
   - bumped the dependencies including updating `eslint` to v3
