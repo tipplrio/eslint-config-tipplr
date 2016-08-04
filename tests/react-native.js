@@ -39,3 +39,24 @@ export default function Hello() {
   t.is(result.messages[0].ruleId, 'react-native/no-inline-styles', 'fails due to inline styles');
   t.is(result.messages[1].ruleId, 'react-native/no-color-literals', 'fails due to color literals');
 });
+
+test('react-native: platform-specific extensions', t => {
+  t.plan(3);
+  const result = lint(`
+import React from 'react';
+import { View } from 'react-native';
+import Component from './fixtures/Component';
+
+export default function Hello() {
+  return (
+    <View>
+      <Component />;
+    </View>
+  );
+}
+`);
+
+  t.falsy(result.warningCount, 'no warnings');
+  t.falsy(result.errorCount, 'no errors');
+  t.deepEqual(result.messages, [], 'no messages in results');
+});

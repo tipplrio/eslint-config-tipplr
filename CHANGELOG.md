@@ -1,3 +1,8 @@
+0.5.3 / 2016-08-04
+==================
+  - bumped `eslint-plugin-react-native`
+  - added `import/resolver` setting for React Native
+
 0.5.2 / 2016-08-02
 ==================
   - set `react/jsx-filename-extension` in `react-native` to `.js` only
