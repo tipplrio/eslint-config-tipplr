@@ -1,3 +1,7 @@
+0.5.4 / 2016-08-10
+==================
+  - bumped the dependencies including `eslint-find-rules` and `eslint-plugin-react-native`
+
 0.5.3 / 2016-08-04
 ==================
   - bumped `eslint-plugin-react-native`
