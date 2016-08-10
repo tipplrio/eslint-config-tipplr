@@ -1,3 +1,8 @@
+0.5.5 / 2016-08-11
+==================
+  - bumped `eslint-plugin-ava` to 3.0.0
+  - added an exception for `new-cap` in `react`
+
 0.5.4 / 2016-08-10
 ==================
   - bumped the dependencies including `eslint-find-rules` and `eslint-plugin-react-native`
