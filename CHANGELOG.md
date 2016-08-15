@@ -1,3 +1,7 @@
+0.5.6 / 2016-08-15
+==================
+  - bumped the dependencies
+
 0.5.5 / 2016-08-11
 ==================
   - bumped `eslint-plugin-ava` to 3.0.0
