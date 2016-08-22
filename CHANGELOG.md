@@ -1,3 +1,8 @@
+0.5.7 / 2016-08-22
+==================
+  - bumped the dependencies
+  - allowed redux connected components
+
 0.5.6 / 2016-08-15
 ==================
   - bumped the dependencies
