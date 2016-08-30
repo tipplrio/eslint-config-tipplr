@@ -1,3 +1,7 @@
+0.5.9 / 2016-08-30
+==================
+  - added `class-methods-use-this` and `symbol-description` rules
+
 0.5.8 / 2016-08-30
 ==================
   - bumped the dependencies
