@@ -16,4 +16,7 @@ module.exports = {
     // https://github.com/Intellicode/eslint-plugin-react-native/blob/master/docs/rules/no-color-literals.md
     'react-native/no-color-literals': 2,
   },
+  globals: {
+    requestAnimationFrame: false,
+  },
 };
