@@ -1,3 +1,8 @@
+0.5.8 / 2016-08-30
+==================
+  - bumped the dependencies
+  - added `requestAnimationFrame` as a global function of `react-native`
+
 0.5.7 / 2016-08-22
 ==================
   - bumped the dependencies
