@@ -1,3 +1,8 @@
+0.5.10 / 2016-09-01
+==================
+  - added `navigator` as a global to `react-native`
+  - bumped `eslint-plugin-jsx-a11y`
+
 0.5.9 / 2016-08-30
 ==================
   - added `class-methods-use-this` and `symbol-description` rules
