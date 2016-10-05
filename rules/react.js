@@ -4,5 +4,8 @@ module.exports = {
       newIsCap: true,
       capIsNewExceptions: ['Immutable'],
     }],
+    // Forbid certain propTypes (any, array, object)
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md
+    'react/forbid-prop-types': 'off',
   },
 };
