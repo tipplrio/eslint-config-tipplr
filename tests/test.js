@@ -17,7 +17,7 @@ function lint(text) {
   return linter.results[0];
 }
 
-test('test: using mocha-gherkin', t => {
+test('test: using mocha-gherkin', (t) => {
   t.plan(3);
   const result = lint(`
   Feature('Feature',

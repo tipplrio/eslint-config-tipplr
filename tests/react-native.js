@@ -17,7 +17,7 @@ function lint(text) {
   return linter.results[0];
 }
 
-test('react-native: color literals in styles', t => {
+test('react-native: color literals in styles', (t) => {
   t.plan(3);
   const result = lint(`
 import React from 'react';
@@ -40,7 +40,7 @@ export default function Hello() {
   t.is(result.messages[1].ruleId, 'react-native/no-color-literals', 'fails due to color literals');
 });
 
-test('react-native: platform-specific extensions', t => {
+test('react-native: platform-specific extensions', (t) => {
   t.plan(3);
   const result = lint(`
 import React from 'react';

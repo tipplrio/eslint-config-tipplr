@@ -28,7 +28,7 @@ ${body}
 `;
 }
 
-test('react prop order: a good component', t => {
+test('react prop order: a good component', (t) => {
   t.plan(3);
   const result = lint(wrapComponent(`
 componentWillMount() {}
@@ -46,7 +46,7 @@ render() { return <div />; }
   t.deepEqual(result.messages, [], 'no messages in results');
 });
 
-test('react prop order: when random method is first', t => {
+test('react prop order: when random method is first', (t) => {
   t.plan(2);
   const result = lint(wrapComponent(`
 someMethod() {}
@@ -63,7 +63,7 @@ render() { return <div />; }
   t.is(result.messages[0].ruleId, 'react/sort-comp', 'fails due to sort');
 });
 
-test('react prop order: when random method after lifecycle methods', t => {
+test('react prop order: when random method after lifecycle methods', (t) => {
   t.plan(2);
   const result = lint(wrapComponent(`
 componentWillMount() {}
