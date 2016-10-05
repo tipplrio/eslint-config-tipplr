@@ -1,3 +1,8 @@
+0.6.1 / 2016-10-05
+==================
+  - turned off `react/forbid-prop-types`
+  - turned off `react/no-unused-prop-types`
+
 0.6.0 / 2016-10-05
 ==================
   - upgraded the dependencies
