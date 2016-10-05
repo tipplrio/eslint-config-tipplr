@@ -1,3 +1,10 @@
+0.6.0 / 2016-10-05
+==================
+  - upgraded the dependencies
+  - fixed the order of `react`
+  - added new rules of `eslint-plugin-import`
+  - changed the style
+
 0.5.10 / 2016-09-01
 ==================
   - added `navigator` as a global to `react-native`
