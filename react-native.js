@@ -7,7 +7,7 @@ module.exports = {
     // With React Native, only .js files may have JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
     // Cf. https://github.com/facebook/react-native/pull/5233
-    'react/jsx-filename-extension': [2, { extensions: ['.js'] }],
+    'react/jsx-filename-extension': ['error', { extensions: ['.js'] }],
   },
   settings: {
     'import/resolver': {

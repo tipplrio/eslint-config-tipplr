@@ -1,6 +1,6 @@
 module.exports = {
   rules: {
-    'new-cap': [2, {
+    'new-cap': ['error', {
       newIsCap: true,
       capIsNewExceptions: ['Immutable'],
     }],

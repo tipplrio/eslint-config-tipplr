@@ -24,7 +24,7 @@ module.exports = {
   },
   rules: {
     // require a capital letter for constructors
-    'new-cap': [2, {
+    'new-cap': ['error', {
       capIsNewExceptions: [
         'Feature',
         'Scenario',

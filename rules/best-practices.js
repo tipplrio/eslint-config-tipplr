@@ -1,7 +1,7 @@
 module.exports = {
   rules: {
-    'class-methods-use-this': 0,
-    'no-multi-spaces': [2, {
+    'class-methods-use-this': 'off',
+    'no-multi-spaces': ['error', {
       exceptions: {
         Property: true,
         VariableDeclarator: true,

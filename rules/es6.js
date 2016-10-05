@@ -1,5 +1,5 @@
 module.exports = {
   rules: {
-    'symbol-description': 2,
+    'symbol-description': 'error',
   },
 };
