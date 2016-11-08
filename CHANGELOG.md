@@ -1,3 +1,8 @@
+0.6.2 / 2016-11-08
+==================
+  - fixed `jsx-a11y/anchor-has-content`
+  - upgraded the dependencies
+
 0.6.1 / 2016-10-05
 ==================
   - turned off `react/forbid-prop-types`
