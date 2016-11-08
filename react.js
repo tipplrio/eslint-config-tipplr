@@ -2,7 +2,9 @@ module.exports = {
   extends: [
     'eslint-config-airbnb-base/rules/strict',
     'eslint-config-airbnb/rules/react',
-    'eslint-config-airbnb/rules/react-a11y',
+    // TODO: Uncomment the below when the issue is fixed
+    // Cf. https://github.com/airbnb/javascript/issues/1163
+    // 'eslint-config-airbnb/rules/react-a11y',
     './base',
     './rules/strict',
     './rules/react',
