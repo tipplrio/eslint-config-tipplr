@@ -45,7 +45,7 @@ test('react-native: platform-specific extensions', (t) => {
   const result = lint(`
 import React from 'react';
 import { View } from 'react-native';
-import Component from './fixtures/Component';
+import Component from './tests/fixtures/Component';
 
 export default function Hello() {
   return (
