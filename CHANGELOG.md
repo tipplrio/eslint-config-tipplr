@@ -1,3 +1,8 @@
+0.6.3 / 2016-12-12
+==================
+  - upgraded the dependencies
+  - added `no-return-await`, `require-await`, `no-await-in-loop`, `capitalized-comments`
+
 0.6.2 / 2016-11-08
 ==================
   - fixed `jsx-a11y/anchor-has-content`
