@@ -11,29 +11,29 @@
     "test": "npm run --silent lint && npm run tests-only"
   },
   "peerDependencies": {
-    "eslint": "^v3.9.1",
+    "eslint": "^v3.12.0",
     "eslint-plugin-ava": "^4.0.0",
     "eslint-plugin-jsx-a11y": "^3.0.1",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-react": "^6.6.0",
-    "eslint-plugin-react-native": "^2.0.0"
+    "eslint-plugin-react": "^6.8.0",
+    "eslint-plugin-react-native": "^2.2.1"
   },
   "dependencies": {
     "eslint-config-airbnb": "^13.0.0",
     "eslint-config-airbnb-base": "^10.0.1"
   },
   "devDependencies": {
-    "ava": "^0.16.0",
+    "ava": "^0.17.0",
     "babel-preset-es2015": "^6.18.0",
-    "eslint": "^v3.9.1",
+    "eslint": "^v3.12.0",
     "eslint-find-rules": "^1.14.3",
     "eslint-plugin-ava": "^4.0.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^3.0.1",
-    "eslint-plugin-react": "^6.6.0",
-    "eslint-plugin-react-native": "^2.0.0",
-    "react": "15.3.2",
-    "react-native": "0.36.1"
+    "eslint-plugin-react": "^6.8.0",
+    "eslint-plugin-react-native": "^2.2.1",
+    "react": "15.4.1",
+    "react-native": "0.39.2"
   },
   "repository": {
     "type": "git",
